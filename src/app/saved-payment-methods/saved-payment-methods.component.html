@@ -1,0 +1,12 @@
+<div class = 'saved-payment-methods'>
+  <h2>saved-payment-methods</h2>
+  <ul>
+    <li *ngFor="let i in paymentMethods">
+      <span>{{i.type}}</span>
+      <span>{{getMaskedCardNumber(i.cardNumber)}}</span>
+    </li>
+  </ul>
+</div>
+
+
+
